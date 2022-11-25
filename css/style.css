@@ -179,8 +179,8 @@ nav ul li a:hover{
 #PrioritiesSec{
   background-image: url(../images/foto2.jpg);
   background-repeat: no-repeat;
-  padding: 5% 12%;
   background-size: cover;
+  position: relative;
 }
 #PrioritiesSec div {
   position: absolute;
@@ -190,4 +190,43 @@ nav ul li a:hover{
   opacity: 35%;
   z-index: 1;
   top: 0;
+}
+#PrioritiesSec h2{
+  color: #00C8FF;
+  font-family: Raleway-Bold;
+  text-align: center;
+
+}
+#PrioritiesSec span{
+  color: #00C8FF;
+  text-align: center;
+  margin-top: 30px;
+  display: block;
+  line-height: 30px;
+}
+#PrioritiesSec div{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 40%;
+  z-index: 1;
+  top: 0;
+}
+#PrioritiesSec .content{
+  padding: 5% 12%;
+  height: auto;
+  width: auto;
+  background-color: transparent;
+  z-index: 4;
+  display: block;
+  position: relative;
+}
+#PrioritiesSec ul{
+  list-style: none;
+}
+#PrioritiesSec ul li{
+  margin: 10px;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, .5);;
 }
