@@ -227,6 +227,7 @@ nav ul li a:hover{
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
+  text-align: center;
 }
 #PrioritiesSec ul li{
   margin: 15px;
@@ -267,7 +268,10 @@ nav ul li a:hover{
 /* ==============WhatExactlySec(Section-5)============== */
 #WhatExactlySec{
   background-color: #000000;
-  padding: 5% 20%;
+  padding: 5% 10%;
+}
+#WhatExactlySec div{
+  margin: 0% 10%;
 }
 #WhatExactlySec h2{
   color: #00C8FF;
@@ -282,18 +286,18 @@ nav ul li a:hover{
   display: block;
   line-height: 30px;
 }
-#WhatExactlySec ul{
+#WhatExactlySec div .menu{
   list-style: none;
   height: 100%;
   width: auto;
-  display: flex;
-  position: relative;
   margin: auto;
+  margin-top: 5%;
+  text-align: center;
 }
-#WhatExactlySec ul li{
+#WhatExactlySec div .menu li{
   display: inline-block;
 }
-#WhatExactlySec ul li a{
+#WhatExactlySec div .menu li a{
   text-align: center;
   text-decoration: none;
   color: #009CC7;
@@ -301,10 +305,108 @@ nav ul li a:hover{
   padding: 10px 45px;
   transition: 0.3s;
   font-size: 15px;
+    border-radius: 15px;
 }
-#WhatExactlySec ul li a:hover{
+#WhatExactlySec div .menu li a:hover{
   background-color: #A9A9A9;
   color: white;
-  border-radius: 15px;
   font-weight: 500;
+}
+#WhatExactlySec .sport2{
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  text-align: center;
+  width: 100%;
+}
+#WhatExactlySec .sport2 li:first-child{
+  margin-right: 8%;
+  margin-left: 0;
+}
+#WhatExactlySec .sport2 li:last-child{
+  margin-left: 8%;
+  margin-right: 0;
+}
+#WhatExactlySec .sport2 li{
+  display: inline-block;
+  background-color: rgba(0, 0, 0, .6);
+  height: auto;
+  width: 300px;
+  margin: 0 8%;
+}
+#WhatExactlySec .sport2 li h4{
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20%;
+}
+#WhatExactlySec .sport2 li .text{
+  color: #9A9A9A;
+  font-size: 14px;
+  vertical-align: middle;
+  margin: 15% 0%;
+}
+#WhatExactlySec .sport2 li h5{
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+  vertical-align: bottom;
+}
+#WhatExactlySec .sport2 li .posada{
+  color: #9A9A9A;
+  font-size: 13px;
+  vertical-align: middle;
+  margin-bottom: 20%;
+  margin-top: 0;
+}
+
+/* ==============JustTextSec(Section-6)============== */
+#JustTextSec{
+  background-color: #141414;
+  padding: 8% 15%;
+}
+
+#JustTextSec span{
+  color: #009CC7;
+  text-align: center;
+  margin-top: 30px;
+  display: block;
+  line-height: 30px;
+  font-weight: bold;
+}
+#JustTextSec .author{
+  font-size: 14px;
+}
+
+/* ==============NatureSec(Section-7)============== */
+#NatureSec{
+  background-color: #000000;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+#NatureSec img{
+  width: 100%;
+}
+#NatureSec h2{
+  color: #00C8FF;
+  font-family: Raleway-Regular;
+  text-align: left;
+  font-weight: 500;
+  font-size: 32px;
+}
+#NatureSec span{
+  color: #00C8FF;
+  text-align: left;
+  margin-top: 15px;
+  display: block;
+  line-height: 30px;
+  opacity: 85%;
+}
+#NatureSec div{
+  margin-top: 30%;
+  margin-left: 20%;
+  margin-right: 10%;
 }
