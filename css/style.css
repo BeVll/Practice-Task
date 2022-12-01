@@ -564,3 +564,63 @@ nav ul li a:hover{
 #JustTextSec2 .author{
   font-size: 14px;
 }
+
+/* ==============Footer(Section-12)============== */
+#Footer{
+  background-color: #141414;
+  padding: 5% 12%;
+  border-bottom: 20px solid #00A0D4;
+}
+#Footer ul {
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+}
+#Footer ul li{
+  display: inline-block;
+  margin: 0 4%;
+  width: 25%;
+}
+#Footer ul li h3{
+  color: #eeececf8;
+  font-weight: 500;
+}
+#Footer ul li span{
+  color: #eeececf8;
+  width: 100%;
+  margin-top: 5px;
+  display: block;
+  line-height: 25px;
+}
+#Footer .first{ 
+  width: 20%;
+  color: white;
+  display: inline-block;
+}
+#Footer .first span{ 
+  font-size: 14px;
+  margin-top: 15px;
+  line-height: 25px;
+  display: block;
+}
+#Footer .first li{
+  display: inline-block;
+  width: 25px;
+  padding: 0;
+  margin-right: 10px;
+  margin-left: 0;
+}
+#Footer .first ul{
+  text-align: left;
+  margin-top: 10px;
+}
+#Footer .first li img{
+  width: 25px;
+}
+#Footer .second{ 
+  width: 20%;
+  color: white;
+  display: inline-block;
+}
